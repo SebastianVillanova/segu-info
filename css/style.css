@@ -1,0 +1,60 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  user-select: none;
+  box-sizing: border-box; }
+  body .sectionHeader {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 20px;
+    text-align: center;
+    font-size: 15px; }
+    body .sectionHeader div {
+      height: 30px; }
+      body .sectionHeader div p {
+        margin: 0;
+        padding: 0; }
+  body .divHeader {
+    background-color: #185e6d;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around; }
+    body .divHeader .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .divHeader .logo img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%; }
+    body .divHeader nav {
+      display: flex;
+      justify-content: center; }
+      body .divHeader nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+        body .divHeader nav ul li {
+          list-style: none;
+          padding: 10px 20px; }
+          body .divHeader nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px; }
